@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4f5d73">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:background="#79000000">
+
+        <TextView
+            android:id="@+id/SettingsLogo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="Settings"
+            android:textColor="#67a2bf"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+
+        <TextView
+            android:id="@+id/ModesLogo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center_vertical"
+            android:text=" > Modes"
+            android:textColor="@android:color/white"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/Normal"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="#67a2bf"
+            android:drawableLeft="@drawable/ic_build_white_24dp"
+            android:text="Activate Normal Mode"
+            android:textColor="@android:color/white"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+        <Button
+            android:id="@+id/TSP"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="#67a2bf"
+            android:drawableLeft="@drawable/ic_build_white_24dp"
+            android:text="Activate TSP Mode"
+            android:textColor="@android:color/white"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4f5d73">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#79000000">
+
+        <TextView
+            android:id="@+id/ReportLogo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="center_vertical"
+            android:text="What Happened ?"
+            android:textColor="#67a2bf"
+            android:textSize="29dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/Problem"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="left|top"
+            android:layout_centerInParent="true"
+            android:inputType="textMultiLine"
+            android:hint="Breifly explain what happenned and what steps we can take to re-produce the problem ... "
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+        <Button
+            android:id="@+id/Report"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#67a2bf"
+            android:paddingLeft="15dp"
+            android:paddingRight="40dp"
+            android:drawableLeft="@drawable/ic_report_problem_white_24dp"
+            android:text="SEND REPORT"
+            android:textColor="@android:color/white"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+    </RelativeLayout>
+</LinearLayout>

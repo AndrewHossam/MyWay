@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyWay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="accessToken">sk.eyJ1IjoicHJvZ3JhbW1lcjEwMTA3IiwiYSI6ImNpazhpcWVqczAwMWx2eW04MTFrYWpsdW0ifQ.xFc3lWlrCByXJ_IFKz3rmQ</string>
+
+</resources>
